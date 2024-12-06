@@ -8,11 +8,11 @@ curl -fsSL https://bun.sh/install | bash && \
 ```
 
 ```
-sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 xdg-desktop-protal-hyprland hyprpolkitagent hyprshot ttf-roboto-mono-nerd
+sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 xdg-desktop-portal-hyprland ttf-roboto-mono-nerd
 ```
 
 ```
-yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git hypridle-git
+yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git hypridle-git hyprpolkitagent hyprshot
 ```
 
-And don't forget to enter `~/.config/hypr/HyprPanel/` and run `./make_avgs1.sh`
+Had problems configuring HyprPanel, so I recommend to install it manually through their [website](https://hyprpanel.com/getting_started/installation.html)
