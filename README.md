@@ -1,5 +1,8 @@
 # This is my Hyprland Dotfiles
 
+> [!WARNING]
+> I installed this packages from a Gnome interface. Probably some dependencies were already installed, so be careful!!
+
 To install dependencies, use the following commands:
 
 ```
