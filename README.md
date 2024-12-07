@@ -18,4 +18,4 @@ sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop b
 yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git hypridle-git hyprpolkitagent hyprshot
 ```
 
-Had problems configuring HyprPanel, so I recommend to install it manually through their [website](https://hyprpanel.com/getting_started/installation.html)
+I recommend a fresh install for the HyprPanel, so you can configure it in your own way and liking, while avoiding some errors you may encounter while launching :) [website](https://hyprpanel.com/getting_started/installation.html)
