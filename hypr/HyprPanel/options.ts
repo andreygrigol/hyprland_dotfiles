@@ -977,7 +977,7 @@ const options = mkOptions(OPTIONS, {
             icon: opt('󰸗'),
             showIcon: opt(true),
             showTime: opt(true),
-            format: opt('%a %b %d  %I:%M:%S %p'),
+            format: opt('%a %b %d  %H:%M'),
             rightClick: opt(''),
             middleClick: opt(''),
             scrollUp: opt(''),
@@ -1209,7 +1209,7 @@ const options = mkOptions(OPTIONS, {
                     shortcut3: {
                         icon: opt(''),
                         tooltip: opt('Discord'),
-                        command: opt('discord'),
+                        command: opt('vesktop'),
                     },
                     shortcut4: {
                         icon: opt(''),
@@ -1235,29 +1235,29 @@ const options = mkOptions(OPTIONS, {
                 left: {
                     directory1: {
                         label: opt('󰉍 Downloads'),
-                        command: opt('bash -c "xdg-open $HOME/Downloads/"'),
+                        command: opt('nautilus $HOME/Downloads"'),
                     },
                     directory2: {
                         label: opt('󰉏 Videos'),
-                        command: opt('bash -c "xdg-open $HOME/Videos/"'),
+                        command: opt('nautilus $HOME/Videos/'),
                     },
                     directory3: {
                         label: opt('󰚝 Projects'),
-                        command: opt('bash -c "xdg-open $HOME/Projects/"'),
+                        command: opt('nautilus $HOME/Projects/"'),
                     },
                 },
                 right: {
                     directory1: {
                         label: opt('󱧶 Documents'),
-                        command: opt('bash -c "xdg-open $HOME/Documents/"'),
+                        command: opt('nautilus $HOME/Documents/'),
                     },
                     directory2: {
                         label: opt('󰉏 Pictures'),
-                        command: opt('bash -c "xdg-open $HOME/Pictures/"'),
+                        command: opt('nautilus $HOME/Pictures/'),
                     },
                     directory3: {
                         label: opt('󱂵 Home'),
-                        command: opt('bash -c "xdg-open $HOME/"'),
+                        command: opt('nautilus $HOME/'),
                     },
                 },
             },
