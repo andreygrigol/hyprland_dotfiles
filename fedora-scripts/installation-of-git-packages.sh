@@ -30,3 +30,6 @@ sudo dnf install hyprpolkitagent -y
 
 ##hyprshot
 sudo dnf install hyprshot -y
+
+##hyprpaper
+sudo dnf install hyprpaper -y
