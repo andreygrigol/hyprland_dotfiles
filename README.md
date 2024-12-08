@@ -31,7 +31,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-t
 ```
 ```
 sudo dnf copr enable alebastr/sway-extras
-sudo dnf install less pipewire bluez bluez-tools btop NetworkManager swww python gnome-bluetooth gvsf libdbusmenu-gtk3 git scdoc make
+sudo dnf install less pipewire bluez bluez-tools btop NetworkManager swww python gnome-bluetooth gvfs libdbusmenu-gtk3 git scdoc make
 ./fedora-scripts/fonts.sh
 ./fedora-scripts/installation-of-git-packages.sh
 ```
