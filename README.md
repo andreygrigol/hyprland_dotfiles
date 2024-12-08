@@ -13,7 +13,7 @@ curl -fsSL https://bun.sh/install | bash && \
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain stable
 ```
 ```
-sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 xdg-desktop-portal-hyprland ttf-roboto-mono-nerd ttf-iosevka-nerd
+sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 xdg-desktop-portal-hyprland ttf-roboto-mono-nerd ttf-iosevka-nerd base-devel
 ```
 
 ```
@@ -31,7 +31,7 @@ curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-t
 ```
 ```
 sudo dnf copr enable alebastr/sway-extras
-sudo dnf install less pipewire bluez bluez-tools btop NetworkManager swww python gnome-bluetooth gvsf libdbusmenu-gtk3 git scdoc make
+sudo dnf install less pipewire bluez bluez-tools btop NetworkManager swww python gnome-bluetooth gvfs libdbusmenu-gtk3 git scdoc make automake gcc gcc-c++ kernel-devel python-pip hyprland hyprland-devel
 ./fedora-scripts/fonts.sh
 ./fedora-scripts/installation-of-git-packages.sh
 ```
