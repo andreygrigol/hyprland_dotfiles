@@ -3,7 +3,7 @@
 > [!WARNING]
 > I installed this packages from a Gnome interface. Probably some dependencies were already installed, so be careful!!
 
-## Arch installation
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/13/Arch_Linux_%22Crystal%22_icon.svg/256px-Arch_Linux_%22Crystal%22_icon.svg.png" alt="Arch Logo" width="24"> Arch installation
 
 ```
 curl -fsSL https://bun.sh/install | bash && \
@@ -20,7 +20,7 @@ sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop b
 yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git hypridle-git hyprpolkitagent hyprshot
 ```
 
-## Fedora installation
+## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/267px-Fedora_logo.svg.png" alt="Fedora Logo" width="24"> Fedora installation
 
 ```
 curl -fsSL https://bun.sh/install | bash && \
