@@ -9,15 +9,23 @@
 curl -fsSL https://bun.sh/install | bash && \
   sudo ln -s $HOME/.bun/bin/bun /usr/local/bin/bun
 ```
+
+Bun installation(mainly for HyprPanel):
+
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain stable
 ```
-```
-sudo pacman -S hyprland hyprpaper rofi less hyprlock hypridle pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 xdg-desktop-portal-hyprland ttf-roboto-mono-nerd ttf-iosevka-nerd
-```
+
+Dependencies:
 
 ```
-yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git hypridle-git hyprpolkitagent hyprshot
+sudo pacman -S hyprland rofi less hyprlock hypridle pipewire libgtop bluez bluez-utils btop networkmanager dart-sass wl-clipboard brightnessctl swww python gnome-bluetooth-3.0 pacman-contrib power-profiles-daemon gvfs libdbusmenu-gtk3 xdg-desktop-portal-hyprland ttf-roboto-mono-nerd ttf-iosevka-nerd
+```
+
+Dependencies present in yay repo:
+
+```
+yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat hyprsunset-git hyprpolkitagent hyprshot
 ```
 
 ## <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/Fedora_logo.svg/267px-Fedora_logo.svg.png" alt="Fedora Logo" width="24"> Fedora installation
@@ -26,9 +34,11 @@ yay -S grimblast-git gpu-screen-recorder hyprpicker matugen-bin python-gpustat h
 curl -fsSL https://bun.sh/install | bash && \
   sudo ln -s $HOME/.bun/bin/bun /usr/local/bin/bun
 ```
+
 ```
 curl --proto '=https' --tlsv1.2 -sSf https://sh.rustup.rs | sh -s -- --default-toolchain stable
 ```
+
 ```
 sudo dnf copr enable alebastr/sway-extras
 sudo dnf install less pipewire bluez bluez-tools btop NetworkManager swww python gnome-bluetooth gvsf libdbusmenu-gtk3 git scdoc make
